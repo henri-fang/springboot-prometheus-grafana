@@ -11,4 +11,4 @@ scrape_configs:
     metrics_path: '/actuator/prometheus' # Job to scrape application metrics
     scrape_interval: 5s
     static_configs:
-      - targets: ['SYSTEM_IP:8080']
+      - targets: ['app:8080']
